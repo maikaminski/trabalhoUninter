@@ -8,7 +8,9 @@
     margin: 0;
     padding: 0;
 }
+
 /* Especificações gerais do cabeçalho de todas as páginas */
+
 #cabecalho, footer {
     background-color: var(--cor-primaria);
     color: var(--cor-secundária);
@@ -37,7 +39,9 @@ a {
     background-color: var(--cor-primaria);
     color: var(--cor-secundária);
 }
+
 /* Container da página Home */
+
 #container {
     text-align: center;
 }
@@ -96,7 +100,7 @@ img {
     padding: 10px 20px;
     margin: 10px 0 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
 }
 .contato textarea {
@@ -104,7 +108,7 @@ img {
     padding: 10px 20px;
     margin: 10px 0 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
 }
 .contato button {
@@ -112,8 +116,11 @@ img {
     padding: 10px;
     margin: 10px 0 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
+    color: var(--cor-terciaria);
+    margin-left: 22px;
+    
   }
 #form {
     font-size: 24px;
