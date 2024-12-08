@@ -1,0 +1,123 @@
+:root {
+    --cor-primaria: #81BfdA;
+    --cor-secundária: #FFFFFF;
+    --cor-terciaria: #3A728A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Especificações gerais do cabeçalho de todas as páginas */
+#cabecalho, footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundária);
+    padding: 1em;
+    text-align: center;
+}
+
+.titulo {
+    padding: 0.3em;
+    font-size: 36px;
+}
+
+.menu {
+    padding: 0.3em;
+}
+
+a {
+    padding: .3em;
+    background-color: var(--cor-secundária);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.menu a:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundária);
+}
+/* Container da página Home */
+#container {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    border-radius: 100px;
+}
+
+/* Container das páginas sobre mim, informações profissionais, portfolio */
+
+.subtitulo{
+    color: var(--cor-primaria);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+.conteudo {
+    padding: 2em 4em;
+    text-align: justify;
+    font-size: 20px;
+    color: var(--cor-terciaria);
+}
+.span {
+    font-weight: bold;
+}
+
+.paragrafo {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.links {
+    list-style: none;
+    text-align: center;
+    padding: 2em;
+    font-size: 30px;
+}
+
+.icons {
+    width: 3%;
+    margin: 10px 12px 0;
+}
+
+/* Página de contato */
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contato textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contato button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+#form {
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    width: 50%;
+    margin: 2em auto;
+}
